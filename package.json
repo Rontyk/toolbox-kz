@@ -1,0 +1,20 @@
+{
+  "name": "toolbox-kz",
+  "version": "1.0.0",
+  "description": "ToolBox KZ — automated rental locker platform (CSS 447)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "qrcode": "^1.5.4",
+    "sql.js": "^1.15.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
